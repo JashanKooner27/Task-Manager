@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="paint.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="android-chrome-192x192.png">
+</head>
+<body>
+    <div class="container">
+        <h1 >Task Manager</h1>
+        <div class="add-task">
+            <input type="text" id="task-title" placeholder="Task Title">
+            <input type="text" id="task-description" placeholder="Task Description">
+            <input type="date" id="due-date">
+            <select id="category">
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="shopping">Shopping</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="task-list">
+            <h2>Task List</h2>
+            <input type="text" id="search" placeholder="Search" >
+            <select id="filter-status">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+            <select id="filter-category">
+                <option value="all">All</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="shopping">Shopping</option>
+            </select>
+            <button id="filter-btn" onclick="filterTasks()">Apply Filters</button>
+            <button id="reset-btn" onclick="resetFilters()">Reset Filters</button>
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFEE3;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 20px; 
+
+    background-color: #4C956C;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 5rem;
+}
+
+#task-title{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 12px;
+}
+#task-description{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 12px;
+}
+#due-date{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 12px;
+    
+}
+.add-task select{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    font-size: 12px;
+}
+.add-task button {
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    font-size: 12px;
+}
+.add-task button:hover{
+    background-color:#2C6E49 ;
+    transition: 0.8s;
+}
+
+.task-list h2 {
+    margin-top: 30px;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+#filter-status,
+#filter-category{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    font-size: 12px;
+}
+#filter-btn,
+#reset-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    font-size: 12px;
+}
+#filter-btn:hover{
+    background-color:#2C6E49 ;
+    transition: 0.8s;
+
+}
+#reset-btn:hover{
+    background-color:#2C6E49 ;
+    transition: 0.8s;
+
+}
+
+#search{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 250px;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin: 10px 2px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 25px;;
+    justify-content: space-between ;
+}
+
+.completed {
+    background-color: #d9ffd9;
+    text-decoration: line-through;
+}
+#edit-btn{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 45px;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+#delete-btn{
+    
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 45px;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+#complete-btn{
+    
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+#voice-search-button{
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    width: 40px;
+    font-size: 12px;
+}
+#voice-search-button:hover{
+    background-color:#2C6E49 ;
+    transition: 0.5s;
+
+}
